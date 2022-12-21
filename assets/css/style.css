@@ -5,3 +5,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.conteiner {
+    max-width: 425px;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+
+.logotipo {
+    width: 90px;
+    height: 90px;
+}
+
+.cabeçalho {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+}
+
+.label-menu, .checkbox {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
